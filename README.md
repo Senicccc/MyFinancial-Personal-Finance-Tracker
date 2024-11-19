@@ -24,11 +24,12 @@
 
 ## Screenshots
 
-- ![Login](myfinancial/images/login.png)
-- ![Register](myfinancial/images/register.png)
-- ![Home](myfinancial/images/home.png)
-- ![Pendapatan](myfinancial/images/pendapatan.png)
-- ![Pengeluaran](myfinancial/images/pengeluaran.png)
-- ![Budget](myfinancial/images/budget.png)
-- ![Laporan Budgeting](myfinancial/images/laporan-budgeting.png)
-- ![Laporan Keuangan](myfinancial/images/laporan-keuangan.png)
+- ![Login](myfinancial/images/Login.png)
+- ![Register](myfinancial/images/Register.png)
+- ![Home](myfinancial/images/Home.png)
+- ![Pendapatan](myfinancial/images/Pendapatan.png)
+- ![Pengeluaran](myfinancial/images/Pengeluaran.png)
+- ![Budget](myfinancial/images/Budget.png)
+- ![Laporan Budgeting](myfinancial/images/Laporan-Budgeting.png)
+- ![Laporan Keuangan](myfinancial/images/Laporan-Keuangan.png)
+
