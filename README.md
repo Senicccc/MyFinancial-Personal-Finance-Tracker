@@ -22,15 +22,5 @@
 ## Notes:
 - This application is in Indonesian language.
 
-## Screenshots
-
-- ![Login](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Login.png)
-- ![Register](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Register.png)
-- ![Home](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Home.png)
-- ![Pendapatan](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Pendapatan.png)
-- ![Pengeluaran](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Pengeluaran.png)
-- ![Budget](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Budget.png)
-- ![Laporan Budgeting](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Laporan-Budgeting.png)
-- ![Laporan Keuangan](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Laporan-Keuangan.png)
 
 
