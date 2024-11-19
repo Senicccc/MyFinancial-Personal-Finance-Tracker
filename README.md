@@ -24,12 +24,13 @@
 
 ## Screenshots
 
-- ![Login](myfinancial/images/Login.png)
-- ![Register](myfinancial/images/Register.png)
-- ![Home](myfinancial/images/Home.png)
-- ![Pendapatan](myfinancial/images/Pendapatan.png)
-- ![Pengeluaran](myfinancial/images/Pengeluaran.png)
-- ![Budget](myfinancial/images/Budget.png)
-- ![Laporan Budgeting](myfinancial/images/Laporan-Budgeting.png)
-- ![Laporan Keuangan](myfinancial/images/Laporan-Keuangan.png)
+- ![Login](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Login.png)
+- ![Register](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Register.png)
+- ![Home](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Home.png)
+- ![Pendapatan](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Pendapatan.png)
+- ![Pengeluaran](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Pengeluaran.png)
+- ![Budget](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Budget.png)
+- ![Laporan Budgeting](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Laporan-Budgeting.png)
+- ![Laporan Keuangan](MyFinancial-Personal-Finance-Tracker/MyFinancial/Images/Laporan-Keuangan.png)
+
 
