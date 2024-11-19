@@ -15,7 +15,7 @@
 2. Extract the ZIP file to your desired directory.
 3. Import the database:
 4. Download and install **NetBeans IDE** (if not already installed).
-5. Install the **JCalendar** library in NetBeans to manage date-related functionality.
+5. Install the **JCalendar 1.4** (https://toedter.com/jcalendar/) library in NetBeans to manage date-related functionality. 
 6. Open the project in **NetBeans**.
 7. Run the application from **NetBeans**.
 
