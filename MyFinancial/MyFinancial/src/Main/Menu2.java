@@ -1448,7 +1448,7 @@ public class Menu2 extends javax.swing.JFrame {
     }
 
     public void filterHariDashboard() {
-        String selectedFilter = (String) filterHariComboBox.getSelectedItem(); // Ambil nilai yang dipilih dari comboBox
+        String selectedFilter = (String) filterHariComboBox.getSelectedItem(); 
 
         if (selectedFilter.equals("1 Bulan Terakhir")) {
             rekapPendapatanPengeluaranBudget("1");
