@@ -36,6 +36,7 @@ import javax.swing.table.TableColumnModel;
  */
 public class Menu2 extends javax.swing.JFrame {
     private int idUser;
+    private ArrayList<String[]> budgetingData = new ArrayList<>();
     /**
      * Creates new form Menu2
      */
@@ -46,11 +47,13 @@ public class Menu2 extends javax.swing.JFrame {
         DefaultTableModel budgetModel = new DefaultTableModel(new Object[]{"Kategori", "Jumlah"}, 0);
         budgetingTable.setModel(budgetModel);
 
-        DefaultTableModel laporanBudgetingModel = new DefaultTableModel(new Object[]{"Bulan", "Tahun", "Kategori", "Jumlah"}, 0);
+        DefaultTableModel laporanBudgetingModel = new DefaultTableModel(new Object[]{"Bulan", 
+            "Tahun", "Kategori", "Jumlah"}, 0);
         laporanBudgetingTable.setModel(laporanBudgetingModel);
    
         
-        DefaultTableModel laporanModel = new DefaultTableModel(new Object[]{"Tanggal", "Jumlah", "Nama", "Jenis", "Deskripsi"}, 0);
+        DefaultTableModel laporanModel = new DefaultTableModel(new Object[]{"Tanggal", 
+            "Jumlah", "Nama", "Jenis", "Deskripsi"}, 0);
         laporanTable.setModel(laporanModel);
         
         filterHariDashboard();
@@ -1442,13 +1445,17 @@ public class Menu2 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    public void setUser(String NamaLengkap, int idUser1){
+    public void setUser(String NamaLengkap) {
         nameWelcomeTXT.setText(NamaLengkap);
-        this.idUser = idUser1; 
+    }
+
+    public void setUser(String NamaLengkap, int idUser1) {
+        nameWelcomeTXT.setText(NamaLengkap);
+        this.idUser = idUser1;
     }
 
     public void filterHariDashboard() {
-        String selectedFilter = (String) filterHariComboBox.getSelectedItem(); 
+        String selectedFilter = (String) filterHariComboBox.getSelectedItem();
 
         if (selectedFilter.equals("1 Bulan Terakhir")) {
             rekapPendapatanPengeluaranBudget("1");
@@ -1567,7 +1574,11 @@ public class Menu2 extends javax.swing.JFrame {
         if (kategori.isEmpty() || jumlah.isEmpty()) {
             JOptionPane.showMessageDialog(null, "Kategori dan Jumlah harus diisi!");
         } else {
+
             model.addRow(new Object[]{kategori, jumlah});
+
+            budgetingData.add(new String[]{kategori, jumlah});
+
             kategoriBudgetingTF.setText("");
             jumlahBudgetingTF.setText("");
         }
@@ -1978,7 +1989,8 @@ public class Menu2 extends javax.swing.JFrame {
 
     private void cetakLaporanBudgetingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cetakLaporanBudgetingActionPerformed
                 if (laporanBudgetingTable.getRowCount() == 0) {
-            JOptionPane.showMessageDialog(this, "Tidak ada data untuk dicetak!", "Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Tidak ada data untuk dicetak!", 
+                    "Error", JOptionPane.ERROR_MESSAGE);
             return;
         }
 
