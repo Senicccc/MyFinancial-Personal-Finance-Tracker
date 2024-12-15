@@ -24,4 +24,11 @@
 
 
 # Images
-![Logo MyFinancial](https://raw.githubusercontent.com/Senicccc/MyFinancial-Personal-Finance-Tracker/main/MyFinancial/Images/Home.png)
+![Halaman Login](https://raw.githubusercontent.com/Senicccc/MyFinancial-Personal-Finance-Tracker/main/MyFinancial/Images/Login.png)
+![Halaman Registrasi](https://raw.githubusercontent.com/Senicccc/MyFinancial-Personal-Finance-Tracker/main/MyFinancial/Images/Register.png)
+![Halaman Home](https://raw.githubusercontent.com/Senicccc/MyFinancial-Personal-Finance-Tracker/main/MyFinancial/Images/Home.png)
+![Halaman Pendapatan](https://raw.githubusercontent.com/Senicccc/MyFinancial-Personal-Finance-Tracker/main/MyFinancial/Images/Pendapatan.png)
+![Halaman Pengeluaran](https://raw.githubusercontent.com/Senicccc/MyFinancial-Personal-Finance-Tracker/main/MyFinancial/Images/Pengeluaran.png)
+![Halaman Budgeting Bagian Input](https://raw.githubusercontent.com/Senicccc/MyFinancial-Personal-Finance-Tracker/main/MyFinancial/Images/Budgeting.png)
+![Halaman Budgeting Bagian Laporan](https://raw.githubusercontent.com/Senicccc/MyFinancial-Personal-Finance-Tracker/main/MyFinancial/Images/Laporan-Budgeting.png)
+![Halaman Laporan Keuangan](https://raw.githubusercontent.com/Senicccc/MyFinancial-Personal-Finance-Tracker/main/MyFinancial/Images/Laporan-Keuangan.png)
