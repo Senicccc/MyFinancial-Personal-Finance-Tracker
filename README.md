@@ -24,4 +24,4 @@
 
 
 # Images
-![Logo MyFinancial](https://raw.githubusercontent.com/Senicccc/MyFinancial-Personal-Finance-Tracker/main/MyFinancial/Images/logo.png)
+![Logo MyFinancial](https://raw.githubusercontent.com/Senicccc/MyFinancial-Personal-Finance-Tracker/main/MyFinancial/Images/Home.png)
